@@ -1,0 +1,104 @@
+[Root]
+Most Recent Package=Tetris Package
+
+
+[Package|Tetris Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Temp
+
+[Package|Tetris Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Tetris Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Tetris Package|Files Found]
+
+[Package|Tetris Package|Files Released]
+
+[Package|Tetris Package|Missing Dependency Information]
+
+[Package|Tetris Package|Out-of-Date Dependency Information]
+
+[Package|Tetris Package|Files Added]
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.bmp=
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Song.mid=
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tick.wav=
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Zap.wav=
+
+[Package|Tetris Package|Files Removed]
+
+[Package|Tetris Package|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.bmp=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Song.mid=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tick.wav=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Zap.wav=Yes
+
+[Package|Tetris Package|Configure Registry Files]
+Applicable=No
+
+[Package|Tetris Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Tetris Package|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.bmp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Song.mid=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tick.wav=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Zap.wav=$(AppPath)
+
+[Package|Tetris Package|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tetris.bmp=No
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Song.mid=No
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Tick.wav=No
+C:\Program Files\Microsoft Visual Studio\VB98\Programs\Zap.wav=No
+
+[Package|Tetris Package|Distribution]
+Type=single
+Size=
+Title=Miah Tetris
+
+[Package|Tetris Package|IconGroups]
+Group0=Miah Tetris
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Tetris Package|Miah Tetris]
+Icon1=Tetris.exe
+Title1=Miah Tetris
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Tetris Package|Package]
+PackageFolder=C:\Temp
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Programs
+ServerSideCab=
+File1=C:\Temp\setup.exe
+File2=C:\Temp\Setup.Lst
+File3=C:\Temp\Tetris.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
